@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain-barrels</title>
+  <link rel="icon" href="../project-images & videos/ & videos/logo3.jpeg" type="jpg">
+     <!-- Bootstrap Download CSS Link -->
+  <link href="../bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Font Awesome in <head> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    
+  body {
+    background-color: #e0f7fa; /* Light Aqua/Blue Tint */
+  }
+
+    /* Logo Style */
+ .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+
+
+/* Navbar Links */
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #00796b !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  /* padding: 6px 12px !important; */
+}
+.dropdown-item:hover {
+  background-color: #198754 !important; /* Bootstrap bg-success */
+  color: white !important;
+}
+
+  </style>
+</head>
+<body>
+<!-- ✅ Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-success px-5">
+  <a class="navbar-brand d-flex align-items-center" href="">
+    <img src="..\project-images & videos/logo3.jpeg" alt="Logo" class="logo me-2">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Home.html">
+          <i class="bi bi-house-door-fill me-1"></i>Home
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fs-5 px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-grid-fill me-1"></i>Categories
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="..\rainwater-harvesting-website-front-end\Commercial Area.html"><i class="bi bi-building me-1"></i>Commercial Area</a></li>
+          <li><a class="dropdown-item" href="..\rainwater-harvesting-website-front-end\Residential Area.html"><i class="bi bi-house-fill me-1"></i>Residential Area</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Facts & Methods.html">
+          <i class="bi bi-info-circle-fill me-1"></i>Facts & Methods
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Education.html">
+          <i class="bi bi-book-fill me-1"></i>Education
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Developments.html">
+          <i class="bi bi-lightbulb-fill me-1"></i>Developments
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Contact Us.html">
+          <i class="bi bi-telephone-fill me-1"></i>Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+<!-- ✅ Navbar End -->
+
+  <!-- Top Section Heading -->
+<section class=" container-fluid position-relative text-center py-5" style="background: linear-gradient(to right, #e782e7, #85d17f); color: white;">
+     <!-- Back Button -->
+     <button onclick="window.history.back()" class="btn  text-white  position-absolute top-0 start-0 m-3" aria-label="Go back">
+      <h2 class="bi bi-chevron-double-left"></h2>
+    </button>
+  <div class="container">
+    <h1 class="display-4 fw-bold">Rain Barrels: Simple & Smart Rainwater Harvesting</h1>
+    <p class="lead mt-3">Discover how rain barrels offer an easy, cost-effective way to collect and use rainwater for everyday purposes.</p>
+  </div>
+</section>
+
+<!-- Video Section Heading (Animated) -->
+<section class="text-center my-5" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="fw-bold mb-4" style="color: #33691e;">🎥 Watch: Complete Guide to Rain Barrel Setup</h2>
+    <p class="lead">Here’s an informative video showing how to install, maintain, and maximize the use of rain barrels at home.</p>
+  </div>
+</section>
+
+<!-- Video Embed Section -->
+<div class="container mb-5 text-center">
+  <h3 class="mb-3">Rain Barrels Making - Informative Video</h3>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/c8ux_kcVVfE" 
+            title="Rain Barrels Making Informative Video" 
+            allowfullscreen></iframe>
+  </div>
+</div>
+
+
+  <!-- Rain barrels Introduction Section -->
+  <section class="container py-5">
+    <h2 class="text-success mb-4">Introduction to Rain barrels</h2>
+    <p class="mb-5">Rain barrels are an effective and eco-friendly way to collect and store rainwater for future use. They are typically placed beneath downspouts to capture runoff from rooftops during rainfall. This stored water can be used for a variety of purposes such as watering plants, gardens, or even washing vehicles, reducing the reliance on municipal water systems and lowering water bills. By installing a rain barrel, homeowners can make the most of natural resources, while also contributing to the conservation of water and reducing stormwater runoff.</p>
+  </section>
+  <hr>
+
+<!-- Technique Sections -->
+<div class="container">
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain Barrels images & videos\installation of barrel.jpg" class="img-fluid rounded shadow" alt="Installation of Rain Barrel">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">1. Installation Under Downspout</h5>
+      <p>The rain barrel is strategically placed directly under the rooftop downspout to collect maximum runoff water efficiently.</p>
+      Extra Detail: <br>
+      Correct placement ensures that the collected rainwater is clean and reduces the amount of water that would otherwise cause soil erosion around your home.
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain Barrels images & videos\gutter diverter.jpg" class="img-fluid rounded shadow" alt="Rain Gutter Diverter Installation">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">2. Gutter Diverter</h5>
+      <p>A gutter diverter helps channel rainwater into the barrel while allowing overflow to continue down the gutter when the barrel is full.</p>
+      Extra Detail: <br>
+      Installing a diverter maintains the structural integrity of the gutter system and prevents accidental water spillage near the foundation of the house.
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain Barrels images & videos\barrel coverd.jpg" class="img-fluid rounded shadow" alt="Mesh Cover Over Rain Barrel">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">3. Barrel Lid or Mesh Cover</h5>
+      <p>A protective mesh or lid covers the top of the rain barrel, preventing mosquitoes, pests, and debris from contaminating the water.</p>
+      Extra Detail: <br>
+      Proper covering is essential for maintaining clean water quality and avoiding breeding grounds for insects like mosquitoes.
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain Barrels images & videos\overflow pipe.jpg" class="img-fluid rounded shadow" alt="Overflow Management in Rain Barrel">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">4. Overflow Management</h5>
+      <p>Excess water is safely diverted away from the house through an overflow pipe, preventing water logging or damage around the foundation.</p>
+      Extra Detail: <br> 
+      An effective overflow system protects your garden and property during heavy rains by directing surplus water to a safe drainage point.
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain Barrels images & videos\Tap or Faucet.jpg" class="img-fluid rounded shadow" alt="Tap or Faucet for Water Access">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">5. Tap or Faucet</h5>
+      <p>A fitted tap or faucet at the base of the barrel allows easy access to the stored rainwater for watering plants or outdoor cleaning tasks.</p>
+      Extra Detail: <br>
+      Taps make it convenient to draw water for garden irrigation or household chores, encouraging daily use and saving municipal water.
+    </div>
+  </div>
+
+</div>
+
+  <!-- Rain Barrels Section in One Box -->
+<div class="bg-custom py-5 my-5">
+  <div class="container">
+      <h2 class="text-center text-success mb-4">Rain Barrels and Their Benefits</h2>
+      <hr>
+      <!-- Benefits Section -->
+      <div class="mb-5">
+          <h4 class="text-success">Key Benefits of Rain Barrels</h4>
+          <ul class="list-unstyled">
+              <li><strong>Water Conservation:</strong> Rain barrels help collect rainwater from rooftops, conserving valuable water for future use.</li>
+              <li><strong>Cost Savings:</strong> By using rainwater for gardening, cleaning, and other non-potable purposes, households can reduce their water bills.</li>
+              <li><strong>Environmentally Friendly:</strong> Rain barrels help reduce the demand on municipal water systems and lower the risk of flooding by capturing excess water.</li>
+              <li><strong>Improved Plant Health:</strong> Rainwater is naturally soft and free of chemicals, making it ideal for watering plants and gardens.</li>
+          </ul>
+      </div>
+
+      <!-- FAQs Section -->
+      <div>
+          <h4 class="text-success">Frequently Asked Questions (FAQs)</h4>
+          <div>
+              <h6 class="section-title">What is a Rain Barrel?</h6>
+              <p>A rain barrel is a container designed to collect and store rainwater from rooftops for non-potable uses like gardening, irrigation, and cleaning.</p>
+          </div>
+          <div>
+              <h6 class="section-title">Where can Rain Barrels be Installed?</h6>
+              <p>Rain barrels can be installed beneath downspouts of residential, commercial, or agricultural buildings, where rainwater can be easily collected.</p>
+          </div>
+          <div>
+              <h6 class="section-title">How Much Water Can a Rain Barrel Hold?</h6>
+              <p>Most rain barrels can hold between 50 to 100 gallons of water, depending on the size of the barrel and the roof area that contributes to water collection.</p>
+          </div>
+          <div>
+              <h6 class="section-title">Is it Safe to Use Rainwater from Rain Barrels?</h6>
+              <p>Rainwater collected in barrels is safe for non-potable uses like irrigation and cleaning. However, it is not recommended for drinking without proper filtration and treatment.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+      
+        <!-- Back Button -->
+        <div class="text-left m-2 mt-5">
+          <button onclick="window.history.back()" class="btn btn-warning"><b>← Back</b></button>
+        </div>
+      
+       <!-- Footer Start -->
+<footer class="bg-success text-white pt-4 pb-3 mt-5"> <!-- pt/pb reduced -->
+  <div class="container text-md-left">
+    <div class="row text-md-left gy-3"> <!-- spacing between rows -->
+      
+      <!-- About -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold" style="color: #ffc107;">Rainwater Harvesting</h5>
+        <p class="mb-2">
+          Rainwater harvesting is a smart way to conserve water by collecting and storing rain from rooftops, surfaces, or natural catchments.
+This stored rainwater can be used for gardening, household cleaning, irrigation, or even filtered for drinking purposes. It's an eco-friendly method that helps reduce dependency on municipal water, cuts water bills, and supports sustainable living. Let's save water—one drop at a time!
+        </p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold "  style="color: #ffc107;">Quick Links</h5>
+        <!-- Quick Links: now blue -->
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Home.html" class="text-decoration-none text-white">Home</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Commercial Area.html" class="text-decoration-none text-white">Commercial Area</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Residential Area.html" class="text-decoration-none text-white">Residential Area</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Facts & Methods.html" class="text-decoration-none text-white">Facts & Methods</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Education.html" class="text-decoration-none text-white">Education</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Developments.html" class="text-decoration-none text-white">Development</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Contact Us.html" class="text-decoration-none text-white">Contact Us</a></p>
+        
+        </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold"  style="color: #ffc107;">Connect With Us</h5>
+        <a href="#" class="me-3 fs-4" style="color: #3b5998;"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #1da1f2;"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #e1306c;"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #ff0000;"><i class="fab fa-youtube"></i></a>
+        <p class="mt-2 mb-2">info@rainwaterharvesting.com</p>
+        <img src="..\project-images & videos\footer images\Raain Water.jpg" alt="" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+
+    <hr class="my-3 text-white">
+
+    <!-- Footer Bottom -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="mb-0">&copy; 2025 <a href="..\rainwater-harvesting-website-front-end\Home.html" class="text-warning text-decoration-none">Rainwater Harvesting</a> | All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+</body>
+<!-- Bootstrap Downlaod JS link  -->
+<script src="..\bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

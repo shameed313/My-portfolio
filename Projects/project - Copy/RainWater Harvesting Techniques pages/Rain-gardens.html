@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Gardens</title>
+  <link rel="icon" href="../project-images & videos/ & videos/logo3.jpeg" type="jpg">
+     <!-- Bootstrap Download CSS Link -->
+  <link href="../bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Font Awesome in <head> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body{
+      background-color:#e0f5f4;
+    }
+    /* Logo Style */
+ .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+/* Navbar Links */
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #00796b !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  /* padding: 6px 12px !important; */
+}
+.dropdown-item:hover {
+  background-color: #198754 !important; /* Bootstrap bg-success */
+  color: white !important;
+}
+  </style>
+</head>
+<body>
+  <!-- ✅ Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-success px-5">
+  <a class="navbar-brand d-flex align-items-center" href="">
+    <img src="..\project-images & videos/logo3.jpeg" alt="Logo" class="logo me-2">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Home.html">
+          <i class="bi bi-house-door-fill me-1"></i>Home
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fs-5 px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-grid-fill me-1"></i>Categories
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="..\rainwater-harvesting-website-front-end\Commercial Area.html"><i class="bi bi-building me-1"></i>Commercial Area</a></li>
+          <li><a class="dropdown-item" href="..\rainwater-harvesting-website-front-end\Residential Area.html"><i class="bi bi-house-fill me-1"></i>Residential Area</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Facts & Methods.html">
+          <i class="bi bi-info-circle-fill me-1"></i>Facts & Methods
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Education.html">
+          <i class="bi bi-book-fill me-1"></i>Education
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Developments.html">
+          <i class="bi bi-lightbulb-fill me-1"></i>Developments
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\Contact Us.html">
+          <i class="bi bi-telephone-fill me-1"></i>Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+<!-- ✅ Navbar End -->
+ 
+<!-- Top Section Heading -->
+<section class="container-fluid position-relative text-center py-5" style="background: linear-gradient(to right, #3ce3ec, #3b9102); color: white;">
+       <!-- Back Button -->
+       <button onclick="window.history.back()" class="btn  text-white  position-absolute top-0 start-0 m-3" aria-label="Go back">
+        <h2 class="bi bi-chevron-double-left"></h2>
+      </button>
+  <div class="container">
+    <h1 class="display-4 fw-bold">Rain Gardens: Nature's Filter for Water Conservation</h1>
+    <p class="lead mt-3">Discover how rain gardens help in absorbing runoff, improving water quality, and supporting local biodiversity.</p>
+  </div>
+</section>
+
+<!-- Video Section -->
+<section class="text-center my-5" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="fw-bold mb-4" style="color: #0077b6;">🎥 Watch: Complete Guide on Creating Rain Gardens</h2>
+    <p class="lead">Watch the video to learn about the benefits and steps to create a rain garden in your landscape.</p>
+  </div>
+</section>
+
+<!-- Embedded Video Section -->
+<div class="container mb-5 text-center">
+  <h3 class="mb-3">How to Create a Rain Garden</h3>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/_rr3Sif9aPU" 
+            title="How to Create a Rain Garden" 
+            allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- Rain Garden Introduction Section -->
+<section class="container py-5">
+  <h2 class="text-success mb-4">Introduction to Rain Gardens</h2>
+  <p class="mb-5">Rain gardens are specially designed landscapes that capture and manage stormwater runoff from impervious surfaces like roofs, driveways, and parking lots. These gardens use native plants and soil to filter, absorb, and store rainwater, reducing the risk of flooding and improving water quality. Rain gardens not only enhance the beauty of urban areas but also contribute to sustainable water management by supporting biodiversity and reducing the strain on stormwater systems.</p>
+</section>
+    <hr>
+<!-- Technique Sections -->
+<div class="container">
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain garden images & videos\rain garden.jpg" class="img-fluid rounded shadow" alt="Rain Garden Overview">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">1. Garden Design</h5>
+      <p>The rain garden is strategically placed in low areas to capture runoff. The size and shape are designed according to the amount of rainfall and drainage area.</p>
+      <p>Extra Detail: A well-planned design ensures efficient water absorption and prevents waterlogging. The design also complements the surrounding landscape for aesthetic benefits.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain garden images & videos\soil layers.jpg" class="img-fluid rounded shadow" alt="Soil Layers">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">2. Soil Layers</h5>
+      <p>The rain garden is filled with layers of soil, compost, and mulch that encourage water infiltration and filtration of contaminants.</p>
+      <p>Extra Detail: Each layer serves a purpose: compost enriches the soil, mulch helps retain moisture, and sandy soil allows water to percolate quickly.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain garden images & videos\native plants.jpg" class="img-fluid rounded shadow" alt="Native Plants">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">3. Native Plants</h5>
+      <p>Deep-rooted native plants are chosen for their ability to survive both wet and dry conditions while helping absorb and filter water.</p>
+      <p>Extra Detail: These plants are not only water-efficient but also attract local wildlife, enhancing biodiversity in urban spaces.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images & videos\RainaWater harvesting techniques images\Rain garden images & videos\water flow.jpg" class="img-fluid rounded shadow" alt="Water Flow">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">4. Water Flow</h5>
+      <p>Rainwater flows into the garden through an inlet and is evenly spread out for absorption into the soil.</p>
+      <p>Extra Detail: The water flow is designed to slow down, allowing maximum infiltration and reducing surface runoff, which helps prevent flooding.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="c:\Users\pc\Desktop\project\project-images & videos\RainaWater harvesting techniques images\Rain garden images & videos\absorption process of water.jpg" class="img-fluid rounded shadow" alt="Absorption Process">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">5. Absorption & Recharge</h5>
+      <p>The garden retains water temporarily, allowing it to percolate slowly into the soil and recharge groundwater supplies.</p>
+      <p>Extra Detail: This process not only recharges groundwater but also improves water quality by filtering out pollutants before the water enters the soil.</p>
+    </div>
+  </div>
+
+  <!-- Rain Gardens Benefits and FAQs -->
+<div class="bg-custom py-4 my-5">
+  <h2 class="text-center text-success">Rain Gardens: Benefits and FAQs</h2>
+    <hr>
+  <!-- Benefits of Rain Gardens -->
+  <h4 class="text-success">Key Benefits of Rain Gardens</h4>
+  <ul class="list-unstyled">
+      <li><strong>Stormwater Management:</strong> Rain gardens effectively capture and manage stormwater runoff, reducing flooding and water pollution.</li>
+      <li><strong>Groundwater Recharge:</strong> By allowing water to slowly infiltrate the soil, rain gardens help replenish the groundwater table.</li>
+      <li><strong>Improved Water Quality:</strong> Rain gardens filter out pollutants from runoff, such as oils, fertilizers, and heavy metals, before they reach water bodies.</li>
+      <li><strong>Supports Local Wildlife:</strong> Using native plants, rain gardens provide habitat for birds, bees, and other pollinators, promoting local biodiversity.</li>
+      <li><strong>Enhance Aesthetics:</strong> Rain gardens add visual appeal to landscapes, transforming otherwise dull or unusable areas into vibrant green spaces.</li>
+  </ul>
+
+  <!-- FAQs Section for Rain Gardens -->
+  <h4 class="text-success">Frequently Asked Questions (FAQs)</h4>
+  <div>
+      <h6 class="section-title">What is a Rain Garden?</h6>
+      <p>A rain garden is a planted depression or basin designed to collect and manage stormwater runoff. It uses native plants and soil to filter, absorb, and infiltrate rainwater, reducing flooding and improving water quality.</p>
+  </div>
+  <div>
+      <h6 class="section-title">Why are Rain Gardens Important?</h6>
+      <p>Rain gardens play a key role in reducing the negative impacts of stormwater runoff, such as flooding, water pollution, and erosion. They also help recharge the groundwater table and support local ecosystems.</p>
+  </div>
+  <div>
+      <h6 class="section-title">Where can Rain Gardens be Installed?</h6>
+      <p>Rain gardens can be installed in residential, commercial, and public spaces, particularly in areas with impervious surfaces like rooftops, driveways, or parking lots where runoff tends to accumulate.</p>
+  </div>
+  <div>
+      <h6 class="section-title">What Plants are Best for Rain Gardens?</h6>
+      <p>Native plants that thrive in wet conditions and can tolerate both dry and wet periods are ideal for rain gardens. These plants are drought-resistant, require less maintenance, and provide benefits to local wildlife.</p>
+  </div>
+</div>
+</div>
+  <!-- Back Button -->
+  <div class="text-left m-2 mt-5">
+    <button onclick="window.history.back()" class="btn btn-warning"><b>← Back</b></button>
+  </div>
+      
+<!-- Footer Start -->
+<footer class="bg-success text-white pt-4 pb-3 mt-5 ">
+  <div class="container text-md-left">
+    <div class="row text-md-left gy-3">
+      
+      <!-- About -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold" style="color: #ffc107;">Rainwater Harvesting</h5>
+        <p class="mb-2">
+          Rainwater harvesting is a smart way to conserve water by collecting and storing rain from rooftops, surfaces, or natural catchments.
+          This stored rainwater can be used for gardening, household cleaning, irrigation, or even filtered for drinking purposes. It's an eco-friendly method that helps reduce dependency on municipal water, cuts water bills, and supports sustainable living. Let's save water—one drop at a time!
+        </p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold" style="color: #ffc107;">Quick Links</h5>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Home.html" class="text-decoration-none text-white">Home</a></p>
+<p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Commercial Area.html" class="text-decoration-none text-white">Commercial Area</a></p>
+<p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Residential Area.html" class="text-decoration-none text-white">Residential Area</a></p>
+<p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Facts & Methods.html" class="text-decoration-none text-white">Facts & Methods</a></p>
+<p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Education.html" class="text-decoration-none text-white">Education</a></p>
+<p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Developments.html" class="text-decoration-none text-white">Development</a></p>
+<p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\Contact Us.html" class="text-decoration-none text-white">Contact Us</a></p>
+
+</div>
+      <!-- Social Media -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold" style="color: #ffc107;">Connect With Us</h5>
+        <a href="#" class="me-3 fs-4" style="color: #3b5998;"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #1da1f2;"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #e1306c;"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #ff0000;"><i class="fab fa-youtube"></i></a>
+        <p class="mt-2 mb-2">info@rainwaterharvesting.com</p>
+        <img src="..\project-images & videos\footer images\Raain Water.jpg" alt="footer image" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+
+    <hr class="my-3 text-white">
+
+    <!-- Footer Bottom -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="mb-0">&copy; 2025 <a href="..\rainwater-harvesting-website-front-end\Home.html" class="text-warning text-decoration-none">Rainwater Harvesting</a> | All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+</body>
+<!-- Bootstrap Downlaod JS link  -->
+<script src="..\bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
