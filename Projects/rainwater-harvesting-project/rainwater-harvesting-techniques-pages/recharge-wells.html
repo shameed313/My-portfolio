@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recharge wells</title>
+  <link rel="icon" href="../project-images-and-videos/logo3.jpeg" type="jpg">
+     <!-- Bootstrap Download CSS Link -->
+  <link href="../bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Font Awesome in <head> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* Body background color */
+body {
+    background-color: #e0f7fa; /* Light Blue */
+    color: #333; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+    /* Logo Style */
+ .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+/* Navbar Links */
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #00796b !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  /* padding: 6px 12px !important; */
+}
+.dropdown-item:hover {
+  background-color: #198754 !important; /* Bootstrap bg-success */
+  color: white !important;
+}
+
+  </style>
+</head>
+<body>
+  <!-- ✅ Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-success px-5">
+  <a class="navbar-brand d-flex align-items-center" href="">
+    <img src="..\project-images-and-videos/logo3.jpeg" alt="Logo" class="logo me-2">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\home.html">
+          <i class="bi bi-house-door-fill me-1"></i>Home
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fs-5 px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-grid-fill me-1"></i>Categories
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="..\rainwater-harvesting-website-front-end\commercial-area.html"><i class="bi bi-building me-1"></i>Commercial Area</a></li>
+          <li><a class="dropdown-item" href="..\rainwater-harvesting-website-front-end\residential-area.html"><i class="bi bi-house-fill me-1"></i>Residential Area</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\facts-and-methods.html">
+          <i class="bi bi-info-circle-fill me-1"></i>Facts & Methods
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\education.html">
+          <i class="bi bi-book-fill me-1"></i>Education
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\developments.html">
+          <i class="bi bi-lightbulb-fill me-1"></i>Developments
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-5 px-3" href="..\rainwater-harvesting-website-front-end\contact-us.html">
+          <i class="bi bi-telephone-fill me-1"></i>Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+<!-- ✅ Navbar End -->
+
+
+   <!-- Top Section Heading -->
+<section class="container-fluid position-relative text-center py-5" style="background: linear-gradient(to right, #006400, #8B0000); color: white;">
+       <!-- Back Button -->
+       <button onclick="window.history.back()" class="btn  text-white  position-absolute top-0 start-0 m-3" aria-label="Go back">
+        <h2 class="bi bi-chevron-double-left"></h2>
+      </button>
+  <div class="container">
+    <h1 class="display-4 fw-bold">Recharge Wells: Unlocking the Power of Groundwater Replenishment</h1>
+    <p class="lead mt-3">Learn how recharge wells help restore underground water reserves and promote sustainable rainwater harvesting.</p>
+  </div>
+</section>
+
+<!--  Video Section Heading (Animated) -->
+<section class="text-center my-5" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="fw-bold mb-4" style="color: #0077b6;">🎥 Watch: Complete Video Guide on Recharge Wells</h2>
+    <p class="lead">Below is an informative video explaining the benefits and working process of recharge wells in rainwater harvesting.</p>
+  </div>
+</section>
+<!-- Your Video Embed with <video> Tag -->
+  <div class="container mb-5 text-center">
+  <h3 class="mb-3">Recharge Well - Informative Video</h3>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/nZu_OfCip4Q" 
+            title="Recharge Well Informative Video" 
+            allowfullscreen></iframe>
+  </div>
+</div>
+
+
+  <!-- Recharge wells Introduction Section -->
+<section class="container py-5">
+  <h2 class="text-success mb-4">Introduction to Recharge Wells</h2>
+  <p class="mb-5">Recharge wells are specially designed structures that help restore groundwater by directing rainwater deep into underground aquifers. 
+    They offer a sustainable solution to water scarcity, support agriculture, and help maintain the natural balance of water resources. 
+    With increasing urbanization, recharge wells are becoming a vital tool for water conservation and environmental protection.</p>
+</section>
+    
+        <!-- Technique Sections -->
+<div class="container">
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images-and-videos/rainawater-harvesting-techniques-images/recharge-well-images-and-videos/recharge-well.jpg" class="img-fluid rounded shadow" alt="Recharge Well Overview">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">1. Recharge Well Structure</h5>
+      <p>A recharge well is a deep borehole constructed with proper lining and filtering media, often up to 30 meters deep, depending on the soil type. These wells are designed to facilitate the infiltration of rainwater into underground aquifers, restoring groundwater levels. A well-constructed recharge well helps prevent surface water runoff, enabling efficient water storage in aquifers.
+        
+        Extra Detail:
+        The well structure is designed to allow water to percolate slowly, ensuring that it reaches deeper aquifers without overwhelming the system. It acts as a reservoir, storing water underground for longer periods.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images-and-videos/rainawater-harvesting-techniques-images/recharge-well-images-and-videos/borewell-filteration.jpg" class="img-fluid rounded shadow" alt="Borewell with Filter">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">2. Borewell and Filtering</h5>
+      <p>Rainwater is filtered before entering the well to remove sediments and debris. This protects groundwater quality and maintains recharge efficiency. The filtration process ensures that only clean, uncontaminated water enters the aquifer, preventing blockages and enhancing recharge effectiveness.
+
+        Extra Detail:
+        A properly installed filtration system significantly reduces the risk of clogging in the well’s filtering layers, ensuring long-term performance. The use of natural filtering materials such as sand and charcoal also ensures water quality is maintained.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images-and-videos/rainawater-harvesting-techniques-images/recharge-well-images-and-videos/grated-inlet-iron.jpg" class="img-fluid rounded shadow" alt="Grated Inlet Cover">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">3. Grated Inlet</h5>
+      <p>Rainwater enters through an iron-grated cover that prevents large objects from entering the well while allowing free flow of water. This grate also ensures the water flowing into the well remains clean, as it blocks leaves, branches, or debris from contaminating the stored water.
+
+        Extra Detail:
+        The iron grate is usually designed with rust-resistant materials to ensure durability and long-term use. It also helps in maintaining the overall integrity of the recharge system by preventing clogging and damage from foreign objects.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images-and-videos/rainawater-harvesting-techniques-images/recharge-well-images-and-videos/filter-media-layers.jpg" class="img-fluid rounded shadow" alt="Filter Media Layers">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">4. Filter Media</h5>
+      <p>The filter unit includes layers of sand, charcoal, and gravel to purify water before it enters the recharge well. These layers effectively remove dirt, small particles, and pollutants, ensuring only clean water reaches the aquifers.
+
+        Extra Detail:
+        Each layer of the filter media serves a specific purpose, with charcoal absorbing contaminants and gravel providing structural stability. Over time, the filter media needs to be replaced to ensure continued filtration efficiency.</p>
+    </div>
+  </div>
+
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-4" data-aos="fade-right">
+      <img src="..\project-images-and-videos/rainawater-harvesting-techniques-images/recharge-well-images-and-videos/well-recharge-flow.jpg" class="img-fluid rounded shadow" alt="Water Flow into Recharge Well">
+    </div>
+    <div class="col-md-8">
+      <h5 class="text-success">5. Groundwater Recharge</h5>
+      <p>Filtered water flows down the shaft and reaches the deep aquifers, increasing groundwater levels sustainably. This process helps maintain water reserves that are critical for agricultural and domestic uses. Recharge wells contribute significantly to preventing over-extraction of groundwater resources.
+
+        Extra Detail:
+        Groundwater recharge not only replenishes aquifers but also improves the overall health of local ecosystems by supporting plant growth and maintaining water cycles. It ensures that water availability remains consistent even during dry spells.</p>
+    </div>
+  </div>
+  <!-- Recharge Wells Benefits and FAQs -->
+<div class="bg-custom py-4 my-5">
+  <h2 class="text-center text-success">Recharge Wells: Benefits and FAQs</h2>
+
+  <!-- Benefits of Recharge Wells -->
+  <h4 class="text-success">Key Benefits of Recharge Wells</h4>
+  <ul class="list-unstyled">
+      <li><strong>Groundwater Recharge:</strong> Recharge wells help replenish groundwater levels by allowing water to infiltrate into the ground, ensuring a sustainable water supply.</li>
+      <li><strong>Improved Water Availability:</strong> They provide a reliable water source for drinking, irrigation, and other uses, especially in water-scarce regions.</li>
+      <li><strong>Flood Mitigation:</strong> By capturing excess rainwater, recharge wells prevent runoff, reducing the risk of flooding and waterlogging in surrounding areas.</li>
+      <li><strong>Support Agriculture:</strong> Recharge wells enhance the availability of water for farming, helping to improve crop yield and agricultural productivity.</li>
+      <li><strong>Cost-Effective:</strong> Once established, recharge wells require low maintenance and are a cost-effective way to manage water resources.</li>
+  </ul>
+
+  <!-- FAQs Section for Recharge Wells -->
+  <h4 class="text-success">Frequently Asked Questions (FAQs)</h4>
+  <div>
+      <h6 class="section-title">What is a Recharge Well?</h6>
+      <p>A recharge well is a type of structure that captures rainwater and allows it to seep into the ground, thereby replenishing the groundwater table.</p>
+  </div>
+  <div>
+      <h6 class="section-title">Where are Recharge Wells Typically Constructed?</h6>
+      <p>Recharge wells are commonly constructed in areas with high rainfall or in regions where groundwater levels are low, and there is a need for artificial groundwater recharge.</p>
+  </div>
+  <div>
+      <h6 class="section-title">How do Recharge Wells Work?</h6>
+      <p>Recharge wells are dug into the ground, and water is directed into them from various sources such as rooftops, drains, or natural runoff. The water then filters through the well and percolates into the ground, recharging the aquifers.</p>
+  </div>
+  <div>
+      <h6 class="section-title">What Maintenance is Required for Recharge Wells?</h6>
+      <p>Recharge wells require minimal maintenance. However, regular cleaning of the well and surrounding catchment area is necessary to ensure optimal functioning and prevent blockages.</p>
+  </div>
+  <div>
+      <h6 class="section-title">Can Recharge Wells be Installed in Urban Areas?</h6>
+      <p>Yes, recharge wells can be installed in both rural and urban areas, especially in cities facing groundwater depletion. They can be set up in backyards, open spaces, or even under roads to help recharge the aquifer.</p>
+  </div>
+</div>
+</div>
+
+  <!-- Back Button -->
+  <div class="text-left m-2 mt-5">
+    <button onclick="window.history.back()" class="btn btn-warning"><b>← Back</b></button>
+  </div>
+ <!-- Footer Start -->
+ <footer class="bg-success text-white pt-4 pb-3 mt-5"> <!-- pt/pb reduced -->
+  <div class="container text-md-left">
+    <div class="row text-md-left gy-3"> <!-- spacing between rows -->
+      
+      <!-- About -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold" style="color: #ffc107;">Rainwater Harvesting</h5>
+        <p class="mb-2">
+          Rainwater harvesting is a smart way to conserve water by collecting and storing rain from rooftops, surfaces, or natural catchments.
+This stored rainwater can be used for gardening, household cleaning, irrigation, or even filtered for drinking purposes. It's an eco-friendly method that helps reduce dependency on municipal water, cuts water bills, and supports sustainable living. Let's save water—one drop at a time!
+        </p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold "  style="color: #ffc107;">Quick Links</h5>
+        <!-- Quick Links: now blue -->
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\home.html" class="text-decoration-none text-white">Home</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\commercial-area.html" class="text-decoration-none text-white">Commercial Area</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\residential-area.html" class="text-decoration-none text-white">Residential Area</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\facts-and-methods.html" class="text-decoration-none text-white">Facts & Methods</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\education.html" class="text-decoration-none text-white">Education</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\developments.html" class="text-decoration-none text-white">Development</a></p>
+        <p class="mb-1"><a href="..\rainwater-harvesting-website-front-end\contact-us.html" class="text-decoration-none text-white">Contact Us</a></p>
+        
+        </div>
+      <!-- Social Media -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto">
+        <h5 class="text-uppercase mb-3 fw-bold"  style="color: #ffc107;">Connect With Us</h5>
+        <a href="#" class="me-3 fs-4" style="color: #3b5998;"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #1da1f2;"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #e1306c;"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="me-3 fs-4" style="color: #ff0000;"><i class="fab fa-youtube"></i></a>
+        <p class="mt-2 mb-2">info@rainwaterharvesting.com</p>
+        <img src="..\project-images-and-videos\footer-images\rain-water.jpg" alt="" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+
+    <hr class="my-3 text-white">
+
+    <!-- Footer Bottom -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="mb-0">&copy; 2025 <a href="..\rainwater-harvesting-website-front-end\home.html" class="text-warning text-decoration-none">Rainwater Harvesting</a> | All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+      
+</body>
+<!-- Bootstrap Downlaod JS link  -->
+<script src="..\bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
